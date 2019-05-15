@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ConvenioRegistro"
+
+    android:id="@+id/container"
+    android:background="#73C2FB">
+
+
+    <Button
+        android:id="@+id/asoresgistra"
+        android:layout_width="100dp"
+
+        android:layout_height="100dp"
+        android:background="@drawable/aso"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right"
+        android:background="@drawable/aso2"
+        android:layout_margin="5dp"
+        android:id="@+id/asoactudele"/>
+
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:text="informacion"
+    android:gravity="center"
+    android:textSize="20sp"
+    android:layout_marginBottom="30dp"
+    android:id="@+id/titulo2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="Ubicacion: Uiversidad Catolica Luis Amigo"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="30dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Soporte: Juliana.perezca@amigo.edu.co"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="30dp"
+
+        />
+
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,18 @@
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f28a00">
+
+
+
+<ImageView
+    android:layout_width="250dp"
+    android:layout_height="250dp"
+    android:layout_centerInParent="true"
+    android:src="@drawable/inicio"/>
+
+
+</RelativeLayout>

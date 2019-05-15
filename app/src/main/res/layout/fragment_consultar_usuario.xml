@@ -1,0 +1,77 @@
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/consultaimagen">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="COSULTAR USUARIO"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/titulo2"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Documento"
+        android:id="@+id/condocumento"
+        android:layout_below="@+id/titulo2"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_below="@+id/condocumento"/>
+
+    <TextView
+        android:id="@+id/txtProfesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNombre"
+        android:textSize="18sp"/>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/imagen1"
+        android:layout_below="@id/txtProfesion"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/img_base"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/consultar"
+        android:text="Consultar"
+        android:layout_below="@+id/imagen1"
+        android:layout_margin="10dp"
+        android:background="#f28a00"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/white"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
